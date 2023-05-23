@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container2">
+        <div class="nav-wrapper">
+        <a href="./index.html"><img src="pictures/greyorange.png" alt="Logo"></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class="icon-ham" src="pictures/hamorange.png" alt="" aria-hidden="true">
+          <img class="icon-close" src="pictures/close.png" alt="" aria-hidden="true">
+          <span class="sr-only">Menu</span> 
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="./company.html">Компания</a></li>
+            <li><a href="./service.html">Услуги</a></li>
+            <li><a href="./feed.html">Отзывы</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <img src="pictures/phonepng.png" alt="phone" class="phone-logo">
+        <div class="contact-number | display-sm-none display-md-inline-flex">+7(902)-853-64-12</div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="hero3">
+          <div class="container">
+            <h1>Контакты охранного предприятия <span class="orangetext">"ЛИГА"</span></h1>
+            <p><span class="orangetext">Адрес:</span> ХМАО-Югра, г. Нижневартовск, ул. Индустриальная 63 стр.3</p>
+            <p><span class="orangetext">Телефон:</span> +7(902)-853-64-12</p>
+            <p><span class="orangetext">E-mail:</span> opliga@mail.ru</p>
+            <br>
+            <p><span class="orangetext">Реквизиты:</span></p>
+            <p>ООО "ОП "ЛИГА"</p>
+            <p>ОГРН: 1098603007470</p>
+            <p>ИНН/КПП: 8603167854/860301001</p>
+            <br>
+            <h1>Наш адрес: улица Кузоваткина, 27c1</h1>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2a68f93275e17f33fca3dc2c1c0ec2fae67278ecf8e09eb94f259b3250e62b6&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+        </div>
+      </section>
+      <footer class="primary-footer | padding-block-450 bg-neutral-900 text-neutral-100">
+        <div class="container">
+          <div class="primary-footer-wrapper">
+            <div class="footer-nav2">
+              <a href="./index.html"><img src="pictures/ligagrey.png" alt="Manage"></a>
+              <p style="color:var(--clr-neutral-200)">© 2009-2023, ООО "ОП "ЛИГА" </p>
+            </div>
+            <div>
+              <nav class="footer-nav">
+                <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
+                  <li class="footer-title">О компании</li>
+                  <li><a href="./company.html">Компания</a></li>
+                  <li><a href="./service.html">Услуги</a>
+                  <li><a href="./feed.html">Отзывы</a></li>
+                  <li><a href="./contacts.html">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <nav class="footer-nav2">
+                <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
+                  <p class="footer-title">Контактные данные</p>
+                  <li>+7(902)-853-64-12</li>
+                  <li>opliga@mail.ru</li>
+                  <li>Мира 33, дом 2</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
